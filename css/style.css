@@ -2,37 +2,61 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/*======================= COMMON STYLE START ===================================*/
 .common-section-class{
     height: 500px;
-}
-.welcome-bg-img {
-    background-image: url("../images/top-banner.png");
-    background-repeat: no-repeat;
-}
-.divided-div{
-    width: 40%;
-    float: left;
-    padding-left: 5% ;
-}
-.divided-div img{
-    width: 100%;
-    margin-top: 15px;
+    padding-bottom: 160px;
 }
 h1 {
     font-size:50px;
 }
-h1 span{
-    color: orange;
+h2{
+    font-size: 30px;
 }
+h4{
+    font-size: 20px;
+}
+.divided-div{
+    width: 40%;
+    float: left;
+    padding-left: 3%;
+    margin-left: 4%;
+}
+.divided-div img{
+    width: 100%;
+    margin-top: 0;
+}
+
 .divided-div a{
-    background-image: linear-gradient(to left, rgb(245, 75, 46) , rgb(248, 130, 87));
+    background-image: linear-gradient(to left, tomato , lightsalmon);
     text-decoration: none;
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 }
+.divided-div p{
+    text-align: justify;
+    color: #7e7b7b;
+}
+.orange-color{
+    color: orange;
+}
+/*======================= COMMON STYLE END ====================================*/
+
+/*======================= ALL SECTION BGROUNG IMAGES START===============================*/
+#welcome-section {
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+#dream-section{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+/*======================= ALL SECTION BGROUNG IMAGES END =================================*/
+
 footer p {
     text-align: center;
-    color:#7e7b7b
+    color:#7e7b7b;
 }
